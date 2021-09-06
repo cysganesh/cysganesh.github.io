@@ -1,0 +1,259 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+body {
+    font-family: 'Montserrat' !important;
+}
+
+
+/* Navbar styling started */
+
+.mp-nav .nav-link:hover,
+.mp-nav .nav-link:active {
+    color: #ff331f !important;
+}
+
+.nav-link.active {
+    color: #ff331f !important;
+}
+
+.mp-text-primary {
+    color: #222020;
+}
+
+.mp-nav {
+    background: #3626a7;
+}
+
+.mp-sec-bg {
+    background: #f2f2ff;
+}
+
+.mp-text-secondary {
+    color: #3626a7;
+}
+
+.mp-btn-signup {
+    border: 1px solid #3626a7 !important;
+}
+
+.mp-btn-signup:hover,
+.mp-btn-signup:active {
+    background-color: #3626a7;
+    color: #fff !important;
+    border: 1px solid #3626a7;
+}
+
+.mp-nav .nav-link {
+    font-size: .9em;
+    transition: .2s ease;
+}
+
+.mp-nav .nav-link:hover {
+    color: #3626a7;
+}
+
+.section-one-bg {
+    /* position: absolute;
+    top: -23.2%;
+    z-index: -99999;
+    right: 0; */
+}
+
+.btn-signup {
+    border: 1px solid #3626a7 !important;
+    border-radius: 0px !important;
+    padding: 0.8rem 2rem !important;
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.13;
+    letter-spacing: 2px;
+    text-align: center;
+    color: #3626a7;
+    transition: .2s ease;
+}
+
+.btn-signup:hover {
+    color: #fff;
+    text-decoration: none;
+    background: #3626a7;
+}
+
+.btn-signup-flip {
+    color: #ffffff !important;
+    background: #3626a7 !important;
+}
+
+.btn-signup-flip:hover {
+    color: #3626a7 !important;
+    background: #ffffff !important;
+}
+
+.stay-secure-para {
+    font-size: 18px;
+    font-weight: 300;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.15;
+    letter-spacing: 1px;
+    color: #222020;
+}
+
+.app-features-hding {
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: 1.5px;
+    color: #222020;
+}
+
+.app-features-para {
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.15;
+    letter-spacing: 1px;
+    color: #222020;
+}
+
+.sec-item-center {
+    display: flex;
+    align-items: center;
+}
+
+.home-page-landing-section .text-group {
+    line-height: 2.6;
+}
+
+
+/* footer styling start from here */
+
+footer .footer_above {
+    padding-top: 50px;
+    background-color: #3626a7;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+footer p {
+    color: #ffffff;
+    margin: 0;
+}
+
+.list-inline>li {
+    display: inline-block;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.btn-social {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 45px;
+}
+
+.btn-outline {
+    margin-top: 25px;
+    border: solid 2px #fff;
+    font-size: 20px;
+    color: #fff;
+    background: 0 0;
+    transition: all .3s ease-in-out;
+}
+
+.btn-outline:hover {
+    background: white;
+    color: #2a1e5c;
+}
+
+footer h3 {
+    margin-bottom: 30px;
+    color: #ffffff;
+}
+
+footer .target-a .btn-for-get-in-touch {
+    padding: 1em 0;
+}
+
+.btn-for-get-in-touch .btn {
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 100px;
+    background: #3626a7;
+    padding: 0.5em 2em;
+    transition: all .3s ease-in-out;
+}
+
+.btn-for-get-in-touch .btn:hover {
+    border: 2px solid #3626a7;
+    color: #333;
+    background: #ffffff;
+}
+
+footer .footer_below {
+    padding: 10px 0;
+    background: #4543b9;
+}
+
+
+/* footer styling ends here */
+
+
+/* our team css start from here */
+
+.team-block {
+    background: #f7fafc;
+    border: 1px solid #e1e1e1;
+}
+
+
+/* our team css ends here */
+
+
+/* contact us page start from here */
+
+.about-me-sec {
+    padding: 3em 0 3em 0;
+}
+
+.have-an-idea h2 {
+    color: #2a1e5c;
+    padding-bottom: 0.5em;
+}
+
+.event-info-block {
+    padding: 0.5em 0.5em;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 0px 4px #333;
+    margin: 1em 0;
+}
+
+.event-contact-details ul h3 {
+    margin: 0;
+    padding: 0.2em;
+    font-size: 20px;
+}
+
+.about-me-dec p span a {
+    color: #3626a7;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+
+/* contact us page ends here */
