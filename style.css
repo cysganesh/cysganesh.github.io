@@ -9,6 +9,18 @@ body {
     font-family: 'Montserrat' !important;
 }
 
+.text-para{
+    padding-left: 3em;
+    padding-right: 3em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+.app-features-block{
+    padding-left: 5rem!important;
+    padding-right: 5rem!important;
+}
 
 /* Navbar styling started */
 
@@ -276,6 +288,40 @@ footer .footer_below {
     font-weight: bold;
     font-size: 1.2em;
 }
-
-
 /* contact us page ends here */
+
+/* events details page css start here*/
+.content-indent-lineheight{
+    padding: 0 0 0 15px;
+    text-indent: 35px;
+    line-height: 2;
+}
+/* events details page css ends here*/
+
+/* media querry css start here*/
+@media only screen and (max-width: 600px) {
+.text-para{
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    margin-left: 0em;
+    margin-right: 0em;
+}
+.content-indent-lineheight {
+    padding: 0 0 0 0px;
+    text-indent: 35px;
+    line-height: 2;
+}
+.text-center-sm{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.app-features-block{
+    padding-left: 1em!important;
+    padding-right: 1em!important;
+}
+}
+/* media querry css end here*/
